@@ -1,6 +1,4 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
-
         const seenNumbers = {};
         for (const number of array){
           const complement = target - number;
@@ -10,10 +8,10 @@ function hasTargetSum(array, target) {
         return false;
 
       }
-/* 
-  Write the Big O time complexity of your function here
-*/
 
+      
+//The function uses a loop to run through each element in the array. The loop runs through "n" times, where "n" is the number of elements in the array
+// Overall, the loop and the operations inside it are O(N) time complexity
 /* 
   Add your pseudocode here
 */
